@@ -6,6 +6,7 @@ module.exports = {
       'primary':"#CC2D4A",
       'secondary':"#8FA206",
       'tertiary':"#61AEC9",
+      'white':"#fff",
     },
     fontFamily: { 
       Montserrat: ["Montserrat", "sans-serif"],
@@ -33,11 +34,13 @@ module.exports = {
         'primary': '#CC2D4A',
         'secondary': '#8FA206',
         'tertiary': '#61AEC9',
+        'white':"#fff",
         }),
       textColor:{       
         'primary': '#CC2D4A',
         'secondary': '#8FA206',
         'tertiary': '#61AEC9',
+        'white':"#fff",
       },
     },
   },
