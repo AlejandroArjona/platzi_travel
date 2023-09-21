@@ -10,6 +10,7 @@ module.exports = {
       'black': '#000',
       'footerText': '#CCC',
       'footerBg': '#FCFBFB',
+      'tabBarIcon': '#F2F2F2',
     },
     fontFamily: { 
       Montserrat: ["Montserrat", "sans-serif"],
@@ -41,6 +42,7 @@ module.exports = {
         'black': '#000',
         'footerText': '#CCC',
         'footerBg': '#FCFBFB',
+        'tabBarIcon': '#F2F2F2',
         }),
       textColor:{       
         'primary': '#CC2D4A',
@@ -50,6 +52,7 @@ module.exports = {
         'black': '#000',
         'footerText': '#CCC',
         'footerBg': '#FCFBFB',
+        'tabBarIcon': '#F2F2F2',
       },
     },
   },
