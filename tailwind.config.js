@@ -8,6 +8,8 @@ module.exports = {
       'tertiary':"#61AEC9",
       'white':"#fff",
       'black': '#000',
+      'footerText': '#CCC',
+      'footerBg': '#FCFBFB',
     },
     fontFamily: { 
       Montserrat: ["Montserrat", "sans-serif"],
@@ -37,6 +39,8 @@ module.exports = {
         'tertiary': '#61AEC9',
         'white':"#fff",
         'black': '#000',
+        'footerText': '#CCC',
+        'footerBg': '#FCFBFB',
         }),
       textColor:{       
         'primary': '#CC2D4A',
@@ -44,6 +48,8 @@ module.exports = {
         'tertiary': '#61AEC9',
         'white':"#fff",
         'black': '#000',
+        'footerText': '#CCC',
+        'footerBg': '#FCFBFB',
       },
     },
   },
