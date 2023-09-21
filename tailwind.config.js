@@ -7,6 +7,7 @@ module.exports = {
       'secondary':"#8FA206",
       'tertiary':"#61AEC9",
       'white':"#fff",
+      'black': '#000',
     },
     fontFamily: { 
       Montserrat: ["Montserrat", "sans-serif"],
@@ -35,14 +36,19 @@ module.exports = {
         'secondary': '#8FA206',
         'tertiary': '#61AEC9',
         'white':"#fff",
+        'black': '#000',
         }),
       textColor:{       
         'primary': '#CC2D4A',
         'secondary': '#8FA206',
         'tertiary': '#61AEC9',
         'white':"#fff",
+        'black': '#000',
       },
     },
+  },
+  variants: {
+    width: ["responsive", "hover", "focus"]
   },
   plugins: [],
 }
