@@ -13,10 +13,26 @@
     referrerpolicy="no-referrer"/>
 </head>
 <body class="font-Montserrat">
-    <nav></nav>
+    <nav class="w-full h-14 hidden bg-white lg:flex p-4 justify-between">
+        <div class="h-auto w-auto">
+            <p class="text-xl text-primary font-black">Platzi Travel</p>
+        </div>
+        <div class="flex space-x-8">
+            <a class="font-bold text-md text-primary" href="#home">Home</a>
+            <a class="font-bold text-md text-primary" href="#recomendadas">Locations</a>
+            <a class="font-bold text-md text-primary" href="#rentas_destacadas">Stays</a>
+            <a class="font-bold text-md text-primary" href="#faqs">FAQS</a>
+            <a class="font-bold text-md text-primary" href="#about_us">About Us</a>
+        </div>
+        <div class="flex space-x-4">
+            <svg class="w-9 h-9 text-gray-600 dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path class="text-primary" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+
+            <svg class="w-9 h-9 dark:text-white" viewBox="0 0 20 20"><path class="fill-current bg-primary" d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+        </div>
+    </nav>
     <div id="tab_bar"></div>
     <section class="w-full h-auto">
-        <div id="home">
+        <div class="w-full h-3/4" id="home">
             <div class="w-full h-3/4">
                 <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center lg:space-y-0 lg:items-start lg:pt-32">
                     <input class="outline-none p-3 rounded-full shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12 lg:hidden" placeholder="San Francisco" type="search" name="" id="">
@@ -130,7 +146,7 @@
                 </div>
             </div>
         </div>
-        <footer class="w-full h-auto bg-footerBg p-6 space-y-2 pb-16">
+        <footer class="w-full h-auto bg-footerBg p-6 space-y-2 pb-16" id="about_us">
             <p class="text-lg text-footerText">About Us</p>
             <p class="text-sm text-footerText">Investors</p>
             <p class="text-sm text-footerText">Privacy policy</p>
