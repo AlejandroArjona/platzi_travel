@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: ["./public/index.html", ".src/**/*.{html,js}"],
   theme: {
     colors: {
@@ -11,6 +12,10 @@ module.exports = {
       'footerText': '#CCC',
       'footerBg': '#FCFBFB',
       'tabBarIcon': '#F2F2F2',
+      'darkBg': '#111827',
+      'darkNavBg': '#1F2937',
+      'darkCardBg1': '#374151',
+      'darkCardBg2': '#1F2937',
     },
     fontFamily: { 
       Montserrat: ["Montserrat", "sans-serif"],
@@ -43,6 +48,10 @@ module.exports = {
         'footerText': '#CCC',
         'footerBg': '#FCFBFB',
         'tabBarIcon': '#F2F2F2',
+        'darkBg': '#111827',
+        'darkNavBg': '#1F2937',
+        'darkCardBg1': '#374151',
+        'darkCardBg2': '#1F2937',
         }),
       textColor:{       
         'primary': '#CC2D4A',
@@ -53,6 +62,10 @@ module.exports = {
         'footerText': '#CCC',
         'footerBg': '#FCFBFB',
         'tabBarIcon': '#F2F2F2',
+        'darkBg': '#111827',
+        'darkNavBg': '#1F2937',
+        'darkCardBg1': '#374151',
+        'darkCardBg2': '#1F2937',
       },
     },
   },

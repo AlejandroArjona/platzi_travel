@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,22 +12,24 @@
     integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Gari4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous"
     referrerpolicy="no-referrer"/>
 </head>
-<body class="font-Montserrat">
-    <nav class="w-full h-14 hidden bg-white lg:flex p-4 justify-between">
+<body class="font-Montserrat dark:bg-darkBg">
+    <nav class="w-full h-14 hidden bg-white lg:flex p-4 justify-between dark:bg-darkNavBg">
         <div class="h-auto w-auto">
-            <p class="text-xl text-primary font-black">Platzi Travel</p>
+            <p class="text-xl text-primary font-black dark:text-white">Platzi Travel</p>
         </div>
         <div class="flex space-x-8">
-            <a class="font-bold text-md text-primary" href="#home">Home</a>
-            <a class="font-bold text-md text-primary" href="#recomendadas">Locations</a>
-            <a class="font-bold text-md text-primary" href="#rentas_destacadas">Stays</a>
-            <a class="font-bold text-md text-primary" href="#faqs">FAQS</a>
-            <a class="font-bold text-md text-primary" href="#about_us">About Us</a>
+            <a class="font-bold text-md text-primary dark:text-white" href="#home">Home</a>
+            <a class="font-bold text-md text-primary dark:text-white" href="#recomendadas">Locations</a>
+            <a class="font-bold text-md text-primary dark:text-white" href="#rentas_destacadas">Stays</a>
+            <a class="font-bold text-md text-primary dark:text-white" href="#faqs">FAQS</a>
+            <a class="font-bold text-md text-primary dark:text-white" href="#about_us">About Us</a>
         </div>
         <div class="flex space-x-4">
-            <svg class="w-9 h-9 text-gray-600 dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path class="text-primary" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            <svg class="w-9 h-9 text-gray-600 dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path class="text-primary dark:text-white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
 
-            <svg class="w-9 h-9 dark:text-white" viewBox="0 0 20 20"><path class="fill-current bg-primary" d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+            <button id="toggle">
+                <svg class="w-9 h-9 dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 20 20"><path class="fill-current bg-primary dark:text-white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+            </button>
         </div>
     </nav>
     <div id="tab_bar"></div>
@@ -47,55 +49,55 @@
             </div>
         </div>
         <div class="p-6 " id="recomendadas">
-            <p class="text-3xl font-semibold text-primary">Our Recomendations</p>
+            <p class="text-3xl font-semibold text-primary dark:text-white">Our Recomendations</p>
             <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-4 overflow-y-hidden">
                 <div class="card">
                     <div class="w-full h-3/5 rounded-t-lg bg-norway bg-cover"></div>
-                    <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+                    <div class="w-full h-2/5 bg-secondary rounded-b-lg dark:bg-darkCardBg1">
                         <p class="text-white font-bold text-lg px-4 py-2">Norway</p>
                         <p class="text-white px-4">Beautiful landscapes</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="w-full h-3/5 rounded-t-lg bg-new_york bg-cover"></div>
-                    <div class="w-full h-2/5 bg-white rounded-b-lg">
-                        <p class="text-tertiary font-bold text-lg px-4 py-2">New York</p>
-                        <p class="text-tertiary px-4">Concrete jungle</p>
+                    <div class="w-full h-2/5 bg-white rounded-b-lg dark:bg-darkCardBg2">
+                        <p class="text-tertiary font-bold text-lg px-4 py-2 dark:text-white">New York</p>
+                        <p class="text-tertiary px-4 dark:text-white">Concrete jungle</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="w-full h-3/5 rounded-t-lg bg-norway bg-cover"></div>
-                    <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+                    <div class="w-full h-2/5 bg-secondary rounded-b-lg dark:bg-darkCardBg1">
                         <p class="text-white font-bold text-lg px-4 py-2">Norway</p>
                         <p class="text-white px-4">Beautiful landscapes</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="w-full h-3/5 rounded-t-lg bg-new_york bg-cover"></div>
-                    <div class="w-full h-2/5 bg-white rounded-b-lg">
-                        <p class="text-tertiary font-bold text-lg px-4 py-2">New York</p>
-                        <p class="text-tertiary px-4">Concrete jungle</p>
+                    <div class="w-full h-2/5 bg-white rounded-b-lg dark:bg-darkCardBg2">
+                        <p class="text-tertiary font-bold text-lg px-4 py-2 dark:text-white">New York</p>
+                        <p class="text-tertiary px-4 dark:text-white">Concrete jungle</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="w-full h-3/5 rounded-t-lg bg-norway bg-cover"></div>
-                    <div class="w-full h-2/5 bg-secondary rounded-b-lg">
+                    <div class="w-full h-2/5 bg-secondary rounded-b-lg dark:bg-darkCardBg1">
                         <p class="text-white font-bold text-lg px-4 py-2">Norway</p>
                         <p class="text-white px-4">Beautiful landscapes</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="w-full h-3/5 rounded-t-lg bg-new_york bg-cover"></div>
-                    <div class="w-full h-2/5 bg-white rounded-b-lg">
-                        <p class="text-tertiary font-bold text-lg px-4 py-2">New York</p>
-                        <p class="text-tertiary px-4">Concrete jungle</p>
+                    <div class="w-full h-2/5 bg-white rounded-b-lg dark:bg-darkCardBg2">
+                        <p class="text-tertiary font-bold text-lg px-4 py-2 dark:text-white">New York</p>
+                        <p class="text-tertiary px-4 dark:text-white">Concrete jungle</p>
                     </div>
                 </div>
             </div>
             
         </div>
         <div class="px-4 h-full w-full lg:px-6" id="rentas_destacadas">
-            <p class="text-3xl text-primary font-semibold pb-6 mt-6">Trending Stays</p>
+            <p class="text-3xl text-primary font-semibold pb-6 mt-6 dark:text-white">Trending Stays</p>
             <div class="w-full h-auto flex flex-col items-center justify-center">
                 <div class="w-full h-96 bg-chicago bg-cover rounded-xl mb-8 lg:bg-center">
                     <p class="cardTitle">Chicago</p>
@@ -123,26 +125,26 @@
         </div>
         <div class="w-full h-full" id="faqs">
             <div class="w-full h-full px-6 flex flex-col space-y-4">
-                <p class="text-3xl text-primary font-semibold mt-6">FAQs</p>
+                <p class="text-3xl text-primary font-semibold mt-6 dark:text-white">FAQs</p>
                 <div>
-                    <p class="text-xl font-medium text-primary">Payment Methods</p>
-                    <p class="text-md pt-2">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+                    <p class="text-xl font-bold text-primary dark:text-white">Payment Methods</p>
+                    <p class="text-md pt-2 dark:text-white">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
                 </div>
                 <div>
-                    <p class="text-xl font-medium text-primary">Cancellation Policy</p>
-                    <p class="text-md pt-2">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+                    <p class="text-xl font-bold text-primary dark:text-white">Cancellation Policy</p>
+                    <p class="text-md pt-2 dark:text-white">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
                 </div>
                 <div>
-                    <p class="text-xl font-medium text-primary">Long Stays</p>
-                    <p class="text-md pt-2">We accept VISA, MasterCard, American Express, Paypal and Binance <br> We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+                    <p class="text-xl font-bold text-primary dark:text-white">Long Stays</p>
+                    <p class="text-md pt-2 dark:text-white">We accept VISA, MasterCard, American Express, Paypal and Binance <br> We accept VISA, MasterCard, American Express, Paypal and Binance</p>
                 </div>
                 <div>
-                    <p class="text-xl font-medium text-primary">Cancellation Policy</p>
-                    <p class="text-md pt-2">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+                    <p class="text-xl font-bold text-primary dark:text-white">Cancellation Policy</p>
+                    <p class="text-md pt-2 dark:text-white">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
                 </div>
                 <div>
-                    <p class="text-xl font-medium text-primary">Cancellation Policy</p>
-                    <p class="text-md pt-2">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+                    <p class="text-xl font-bold text-primary dark:text-white">Cancellation Policy</p>
+                    <p class="text-md pt-2 dark:text-white">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
                 </div>
             </div>
         </div>
@@ -165,12 +167,25 @@
 		<a href="#recomendadas">
 			<svg class="w-9 h-9 fill-red-500 text-gray-600 dark:text-white" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
 		</a>
-        <button href="#moon">
+        <button href="#moon" id="toggle-sm">
             <svg class="w-9 h-9 fill-current text-gray-600 dark:text-white" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
         </button>
         <a href="#user">
             <svg class="w-9 h-9 fill-teal-500 text-gray-600 dark:text-white" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path></svg>
         </a>
 	</div>
+    <script>
+        const htmlElement = document.querySelector('html');
+        const toggleButton = document.querySelector('#toggle');
+        const toggleButtonSm = document.querySelector('#toggle-sm');
+
+        toggleButton.addEventListener('click', toggleDarkMode());
+        toggleButtonSm.addEventListener('click', toggleDarkMode());
+
+        const toggleDarkMode = () => {
+            htmlElement.classList.contains("dark")?
+            htmlElement.classList.remove("dark") : htmlElement.classList.add("dark")
+        }
+    </script>
 </body>
 </html>
